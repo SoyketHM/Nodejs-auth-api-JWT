@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-auth-api-jwt",
+  "version": "1.0.0",
+  "description": "Authentication using JWT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "web": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoyketHM/Nodejs-auth-api-JWT.git"
+  },
+  "author": "soyket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoyketHM/Nodejs-auth-api-JWT/issues"
+  },
+  "homepage": "https://github.com/SoyketHM/Nodejs-auth-api-JWT#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0"
+  }
+}
