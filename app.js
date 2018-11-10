@@ -13,11 +13,12 @@ app.post('/api/posts', verifyToken, (req, res) => {
     jwt.verify(req.token, 'secretkey', (err, authData) => {
         if (err){
             res.json({
-                message: 'token invalid'
+                message: 'token invalid',
             });
         }else {
             res.json({
-                message: 'Post created....'
+                message: 'Post created....',
+                authData
             });
         }
     });
